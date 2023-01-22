@@ -49,11 +49,11 @@ main {
   font-weight: bold;
   color: white;
   width: 100%;
-  margin-top: 0;
 
   display: flex;
   align-items: center;
   justify-content: space-between;
+  padding: 0 40px;
 }
 
 .calendar-title {
@@ -98,6 +98,26 @@ main {
 
 .current-day {
   border-color: red;
+}
+
+@media (max-width: 1200px) {
+
+}
+
+@media (max-width: 650px) {
+  .calendar {
+    width: auto;
+  }
+  .day {
+    padding: 10px;
+  }
+}
+
+@media (max-width: 450px) {
+  .day {
+    padding: 10px;
+    font-size: 20px;
+  }
 }
 
 
